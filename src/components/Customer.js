@@ -14,4 +14,15 @@ class Customer extends React.Component {
         )
     }
 }
+
+class CustomerProfile extends React.Component {
+    render() {
+        return (
+            <div>
+                <img src={this.props.image} alt="Profile" />
+            </div>
+        )
+    }
+}
+
 export default Customer;

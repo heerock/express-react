@@ -3,6 +3,8 @@ import './App.css';
 import Customer from './components/Customer';
 
 const customer = {
+  'id': 1,
+  'image': 'https://placeimg.com/64/64/any',
   'name': '차주훈',
   'birthday': '930517',
   'gender': '남자',
